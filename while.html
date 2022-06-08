@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Циклічність</title>
+</head>
+<body>
+	<p style="background-color: rosybrown; font-size: 10mm;">Життя - циклічне</p>
+	<script type="text/javascript">
+let numUser;
+let numX=66;
+do{ numUser = prompt("Вгадайте число від 0 до 100", 0);
+if (numUser ==null) {
+alert("Хмм, ми очікували від Вас число");
+} else if(+numUser<numX){
+	alert("Ваше число менше");
+} else if(+numUser>numX){
+	alert("Ваше число більше");
+} else if(+numUser==numX){
+	alert("Ооо!! Ви вгадали!! Ви молодець!!"+numX); }
+} while (numUser != numX && numUser != null);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table</title>
+    <style type="text/css">
+    	body{
+    		background-color: oldlace;
+    	}
+    	table{
+    		border: double 3px maroon;
+    		width: 500px;
+    		border-collapse: separate;
+    	}
+    	th,td{
+    		border:solid 1px block;
+    		height: 0.7cm;
+    		width: 120px;
+    	}
+    	tr:nth-child(even){
+    		background-color: lightgrey;
+    	}
+    	tr:hover{
+    		background-color: gold;
+    	}
+    	td:hover{
+    		font-size: 1.5em;
+    		color: gold;
+    		background-color: silver;
+    	}
+    	caption{
+    		font-size: 40px;
+    		color: red;
+    		font-family: fantasy;
+    	}
+    </style>
+</head>
+<body>
+<p style="background-color: indianred; font-size: 10mm;">Ми вивчаємо таблиці</p>
+<table>
+	<caption>Таблиця кольорів HTML</caption>
+	<thead>
+		<tr><th>Color</th><th>Name</th><th>HEX</th><th>RGB</th></tr>
+	</thead>
+	<tbody>
+		<tr><td style="background-color: black;"></td><td>Black</td><td>#000000</td><td>(0,0,0)</td></tr>
+		<tr><td style="background-color: darkslategray;"></td><td>DarkSlateGray</td><td>#2f4f4f</td><td>(47,79,79)</td></tr>
+		<tr><td style="background-color: slategray;"></td><td>SlateGray</td><td>#708090</td><td>(112,128,144)</td></tr>
+		<tr><td style="background-color: palevioletred;"></td><td>PaleVioletRed</td><td>#db7093</td><td>(219,112,147)</td></tr>
+		<tr><td style="background-color: tan;"></td><td>Tan</td><td>#d2b48c</td><td>(210,180,140)</td></tr>
+		<tr><td style="background-color: teal;"></td><td>Teal</td><td>#008080</td><td>(0,128,128)</td></tr>
+		<tr><td style="background-color: sienna;"></td><td>Sienna</td><td>#a0522d</td><td>(160,82,45)</td></tr>
+		<tr><td style="background-color: maroon;"></td><td>Maroon</td><td>#800000</td><td>(128,0,0)</td></tr>
+		<tr><td style="background-color: orchid;"></td><td>Orchid</td><td>#da70d6</td><td>(218,112,214)</td></tr>
+		<tr><td style="background-color: lavender;"></td><td>Lavender</td><td>#e6e6fa</td><td>(230,230,250)</td></tr>
+		<tr><td style="background-color: skyblue;"></td><td>SkyBlue</td><td>#87ceeb</td><td>(135,206,235)</td></tr>
+		<tr><td style="background-color: limegreen;"></td><td>LimeGreen</td><td>#32cd32</td><td>(50,205,50)</td></tr>
+		<tr><td style="background-color: forestgreen;"></td><td>ForestGreen</td><td>#228b22</td><td>(34,139,34)</td></tr>
+		<tr><td style="background-color: navy;"></td><td>Navy</td><td>#000080</td><td>(0,0,128)</td></tr>
+		<tr><td style="background-color: ivory;"></td><td>Iory</td><td>#fffff0</td><td>(255,255,240)</td></tr>
+		<tr><td style="background-color: mistyrose;"></td><td>MistyRose</td><td>#ffe4e1</td><td>(255,228,225)</td></tr>
+		<tr><td style="background-color: thistle;"></td><td>Thistle</td><td>#d8bfd8</td><td>(216,191,216)</td></tr>
+	</tbody>
+</table>
+</body>
+</html>

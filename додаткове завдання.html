@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Циклічність</title>
+</head>
+<body>
+	<p style="background-color: rosybrown; font-size: 10mm;">Життя - циклічне</p>
+<script type="text/javascript">
+let min = +prompt("Будь ласка, ознайомтись з мінимальним числом діапазону",5);
+let max = +prompt("Будь ласка, ознайомтись з максимальним значення діапазону",20);
+let guess;
+let numberX=16;
+let count=0;
+do { guess = prompt("Вгадайте число від 1 до 20", 1);
+count++;
+gueses+=1
+if (guess > numberX){
+alert("Це не число");
+} else if(+guess<numberX){
+	alert("Ваше число менше");
+} else if(+guess>numberX){
+	alert("Ваше число більше");
+} else if(+guess==numberX){
+	alert("Саме так!! Ви вгадали!! Ви чаклун?"+numberX+" за спроб "+count++); }
+}
+while (guess != numberX && guess != null);
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>links</title>
+	<style type="text/css">
+		.link{
+			width: 200px;
+			height: 75px;
+			font-size: 30px;
+			color: red;
+			border-radius: 50%;
+			border: dotted 5px red;
+		}
+		.link:hover{
+			background-color: red;
+			color: grey;
+			font-size: 50px;
+		}
+		table{
+			border: double 3px red;
+			width: 500px;
+			border-collapse: separate;
+		}
+		th,td{
+			border: solid 1px black;
+			height: 0.7cm;
+			width: 120px;
+		}
+		tr:nth-child(even){
+			background-color: lightgrey;
+		}
+		tr:hover{
+			font-size: 1.5em;
+			color: gold;
+			background-color: silver;
+		}
+		td:hover{
+			font-size: 1.5em;
+			color: gold;
+			background-color: silver;
+
+		}
+		caption{
+			font-size: 40px;
+			color: red;
+			font-family: fantasy;
+		}
+		.myButton{
+			box-shadow: 0px 1px 0px 0px #1c1b18;
+			background: linear-gradient(to bottom, #eae0c2 5%);
+			background-color:#eae0c2;
+			border-radius:15px;
+			border:2px solid #333029;
+			display:inline-block;
+			cursor:pointer;
+			color:#505739;
+			font-family:Arial;
+			font-size:14px;
+			font-weight:bold;
+			padding:12px 16px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #ffffff;
+		}
+		.myButton:hover {
+			background:linear-gradient(to bottom, #eb675e 5%, #e4685d 100%);
+			background-color:#eb675e;
+		}
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+		.btn {
+			background-image: -webkit-linear-gradient(top, #3498db, #2980bd);
+			background-image: -moz-linear-gradient(top, #3498db, #2980bd);
+			background-image: -ms-linear-gradient(top, #3498db, #2980bd);
+			background-image: -o-linear-gradient(top, #3498db, #2980bd);
+			background-image: linear-gradient(to bottom, #3498db, #2980bd);
+			-webkit-border-radius: 28;
+			-moz-border-radius: 28;
+			border-radius: 28px;
+			font-family: Georgia;
+			color: #ffffff;
+			font-size: 20px;
+			padding: 10px 20px 10px 20px;
+			text-decoration: none;
+		}
+		.btn:hover {
+			background: #3cb0fd;
+			background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+<p style="color: black; font-size: 50px;" id="up">Ми вивчаємо посилання</p>
+<a href="https://htmlcolorcodes.com/">HTML colors</a>
+<a href="https://htmlcolorcodes.com/" target="_blank">HTML colors</a>
+<a href="https://htmlcolorcodes.com/" target="_blank"><img src="https://html.com/wp-content/uploads/html-color.png" width="200"></a>
+<a href="image.jpg" target="_blank">Image</a>
+<button class="lnk">Link</button>
+<a href="https://htmlcolorcodes.com/" target="_blank"><button class="lnk">HTML</button></a>
+<a href="https://www.bestcssbuttongenerator.com/" class="myButton">Генератор</a>
+<a href="https://css3buttongenerator.com/" target="_blank"><button class="btn">Buttons</button></a>
+<table>
+	<caption>Таблиця кольорів HTML</caption>
+	<thead>
+		<tr><th>Color</th><th>Name</th><th>HEX</th><th>RGB</th></tr>
+	</thead>
+	<tbody>
+		<tr><td style="background-color: black;"></td><td>Black</td><td>#000000</td><td>(0,0,0)</td></tr>
+		<tr><td style="background-color: darkslategray;"></td><td>DarkSlateGray</td><td>#2f4f4f</td><td>(47,79,79)</td></tr>
+		<tr><td style="background-color: slategray;"></td><td>SlateGray</td><td>#708090</td><td>(112,128,144)</td></tr>
+		<tr><td style="background-color: palevioletred;"></td><td>PaleVioletRed</td><td>#db7093</td><td>(219,112,147)</td></tr>
+		<tr><td style="background-color: tan;"></td><td>Tan</td><td>#d2b48c</td><td>(210,180,140)</td></tr>
+		<tr><td style="background-color: teal;"></td><td>Teal</td><td>#008080</td><td>(0,128,128)</td></tr>
+		<tr><td style="background-color: sienna;"></td><td>Sienna</td><td>#a0522d</td><td>(160,82,45)</td></tr>
+		<tr><td style="background-color: maroon;"></td><td>Maroon</td><td>#800000</td><td>(128,0,0)</td></tr>
+		<tr><td style="background-color: orchid;"></td><td>Orchid</td><td>#da70d6</td><td>(218,112,214)</td></tr>
+		<tr><td style="background-color: lavender;"></td><td>Lavender</td><td>#e6e6fa</td><td>(230,230,250)</td></tr>
+		<tr><td style="background-color: skyblue;"></td><td>SkyBlue</td><td>#87ceeb</td><td>(135,206,235)</td></tr>
+		<tr><td style="background-color: limegreen;"></td><td>LimeGreen</td><td>#32cd32</td><td>(50,205,50)</td></tr>
+		<tr><td style="background-color: forestgreen;"></td><td>ForestGreen</td><td>#228b22</td><td>(34,139,34)</td></tr>
+		<tr><td style="background-color: navy;"></td><td>Navy</td><td>#000080</td><td>(0,0,128)</td></tr>
+		<tr><td style="background-color: ivory;"></td><td>Iory</td><td>#fffff0</td><td>(255,255,240)</td></tr>
+		<tr><td style="background-color: mistyrose;"></td><td>MistyRose</td><td>#ffe4e1</td><td>(255,228,225)</td></tr>
+		<tr><td style="background-color: beige;"></td><td>Beige</td><td>#f5f5dc</td><td>(245,245,220)</td></tr>
+	</tbody>
+</table>
+<a href="#up"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/46384/up-arrow-emoji-clipart-md.png" width="150px"></a>
+</body>
+</html>
